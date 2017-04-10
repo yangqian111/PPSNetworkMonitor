@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		563873AA1E9B32AA00E96BEF /* PPSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 563873A91E9B32AA00E96BEF /* PPSURLSessionConfiguration.m */; };
 		56957CC71E98E50300D6A091 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56957CC61E98E50300D6A091 /* main.m */; };
 		56957CCA1E98E50300D6A091 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56957CC91E98E50300D6A091 /* AppDelegate.m */; };
 		56957CCD1E98E50300D6A091 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56957CCC1E98E50300D6A091 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		56957CD51E98E50300D6A091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56957CD31E98E50300D6A091 /* LaunchScreen.storyboard */; };
 		56957CE01E98E50300D6A091 /* PPSNetworkMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56957CDF1E98E50300D6A091 /* PPSNetworkMonitorTests.m */; };
 		56957CEB1E98E50300D6A091 /* PPSNetworkMonitorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56957CEA1E98E50300D6A091 /* PPSNetworkMonitorUITests.m */; };
+		56957CFB1E98E6CA00D6A091 /* PPSURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 56957CFA1E98E6CA00D6A091 /* PPSURLProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		563873A81E9B32AA00E96BEF /* PPSURLSessionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSURLSessionConfiguration.h; sourceTree = "<group>"; };
+		563873A91E9B32AA00E96BEF /* PPSURLSessionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSURLSessionConfiguration.m; sourceTree = "<group>"; };
 		56957CC21E98E50300D6A091 /* PPSNetworkMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPSNetworkMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56957CC61E98E50300D6A091 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56957CC81E98E50300D6A091 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		56957CE61E98E50300D6A091 /* PPSNetworkMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPSNetworkMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56957CEA1E98E50300D6A091 /* PPSNetworkMonitorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPSNetworkMonitorUITests.m; sourceTree = "<group>"; };
 		56957CEC1E98E50300D6A091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56957CF91E98E6CA00D6A091 /* PPSURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSURLProtocol.h; sourceTree = "<group>"; };
+		56957CFA1E98E6CA00D6A091 /* PPSURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSURLProtocol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		56957CC41E98E50300D6A091 /* PPSNetworkMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				56957CF81E98E6A200D6A091 /* Monitor */,
 				56957CC81E98E50300D6A091 /* AppDelegate.h */,
 				56957CC91E98E50300D6A091 /* AppDelegate.m */,
 				56957CCB1E98E50300D6A091 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				56957CEC1E98E50300D6A091 /* Info.plist */,
 			);
 			path = PPSNetworkMonitorUITests;
+			sourceTree = "<group>";
+		};
+		56957CF81E98E6A200D6A091 /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				56957CF91E98E6CA00D6A091 /* PPSURLProtocol.h */,
+				56957CFA1E98E6CA00D6A091 /* PPSURLProtocol.m */,
+				563873A81E9B32AA00E96BEF /* PPSURLSessionConfiguration.h */,
+				563873A91E9B32AA00E96BEF /* PPSURLSessionConfiguration.m */,
+			);
+			path = Monitor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +297,8 @@
 				56957CCD1E98E50300D6A091 /* ViewController.m in Sources */,
 				56957CCA1E98E50300D6A091 /* AppDelegate.m in Sources */,
 				56957CC71E98E50300D6A091 /* main.m in Sources */,
+				563873AA1E9B32AA00E96BEF /* PPSURLSessionConfiguration.m in Sources */,
+				56957CFB1E98E6CA00D6A091 /* PPSURLProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 46FJ5HKR96;
 				INFOPLIST_FILE = PPSNetworkMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ppsheep.PPSNetworkMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 46FJ5HKR96;
 				INFOPLIST_FILE = PPSNetworkMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ppsheep.PPSNetworkMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +540,7 @@
 				56957CF11E98E50300D6A091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56957CF21E98E50300D6A091 /* Build configuration list for PBXNativeTarget "PPSNetworkMonitorTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +549,7 @@
 				56957CF41E98E50300D6A091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56957CF51E98E50300D6A091 /* Build configuration list for PBXNativeTarget "PPSNetworkMonitorUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +558,7 @@
 				56957CF71E98E50300D6A091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
