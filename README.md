@@ -256,8 +256,7 @@ https://github.com/yangqian111/PPSNetworkMonitor
 **我的个人微博：ppsheep_Qian**
 
 **欢迎大家关注我的公众号，我会定期分享一些我在项目中遇到问题的解决办法和一些iOS实用的技巧，现阶段主要是整理出一些基础的知识记录下来**
-<div align="middle">
-	<image src="http://ac-mhke0kuv.clouddn.com/830a4ead8294ceff5160.jpg" ></image>
-</div>
+![](http://ac-mhke0kuv.clouddn.com/830a4ead8294ceff5160.jpg)
+
 文章也会同步更新到我的博客：
 http://ppsheep.com
