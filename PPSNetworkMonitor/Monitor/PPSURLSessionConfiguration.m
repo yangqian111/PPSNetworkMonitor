@@ -60,7 +60,7 @@
 - (NSArray *)protocolClasses {
     
     return @[[PPSURLProtocol class]];
-    //如果需要导入其他的自定义NSURLProtocol请在这里增加，当然在使用NSURLSessionConfiguration时增加也可以
+    //如果还有其他的监控protocol，也可以在这里加进去
 }
 
 @end

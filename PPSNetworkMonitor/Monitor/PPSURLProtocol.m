@@ -92,7 +92,7 @@ static NSString *const PPSHTTP = @"PPSHTTP";//为了避免canInitWithRequest和c
     self.pps_request = self.request;
 }
 
--(void)stopLoading {
+- (void)stopLoading {
     [self.connection cancel];
 
     //获取请求方法
